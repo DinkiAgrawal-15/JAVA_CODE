@@ -1,0 +1,23 @@
+import java.util.Scanner;
+ class Main {
+   public static void main(String[] args){
+      int n,sum=0;
+      int i=1;
+      System.out.println("Enter an number :: ");
+      Scanner sc = new Scanner(System.in);
+      n = sc.nextInt();
+
+      while(i<n){
+          if(n%i==0){
+              sum=sum+i;
+          }i++;
+      }
+          if(sum==n){
+              System.out.println("perfect number");
+          }else{
+                            System.out.println("Not perfect number");
+
+          }
+      }
+  }
+ 
