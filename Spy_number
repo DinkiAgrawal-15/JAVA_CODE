@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main{
+    public static void main(String a[]){
+        int sum=0;
+        int n;
+        int prod=1;
+        int d;
+        
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
+        while(n>0){
+            d=n%10;
+            sum=sum+d;
+            prod=prod*d;
+            n=n/10;
+        }
+        if(sum==prod){
+                    System.out.println("the number is spy");
+        }else{
+                                System.out.println(" Number is not  spy");
+
+        }
+    }
+}
