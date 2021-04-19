@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String a[]){
+        int num;
+        int sum=0;
+        int sq;
+        Scanner sc=new Scanner(System.in);
+        num=sc.nextInt();
+          sq=num*num;
+        while(sq>0){
+            sum=sum+sq%10;
+            sq=sq/10;
+        }
+        if(sum==num){
+                    System.out.println(num+" Number is Neon");
+        }else{
+                                System.out.println(num+" Number is not  neon");
+
+        }
+    }
+}
