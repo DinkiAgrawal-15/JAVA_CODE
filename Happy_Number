@@ -1,0 +1,27 @@
+import java.util.*;
+class Main{
+    public static void main(String a[]){
+        int num;
+        int sum=0;
+        int temp;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        num=sc.nextInt();
+        while(sum!=1 && sum!=4 ){
+            sum=0;
+            while(num>0){
+                temp=num%10;
+                sum+=(temp*temp);
+                num=num/10;
+            }
+            num=sum;
+        }
+        if(sum==1){
+            System.out.println("Happy number");
+        }else{
+            System.out.println("Not happy number");
+        }
+        
+        
+    }
+}
