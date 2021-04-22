@@ -1,0 +1,19 @@
+
+import java.util.*;
+class Main{
+    public static void main(String[] a){
+        int pow;
+        int num;
+        int i=1;
+        int sum=1;
+        Scanner sc=new Scanner(System.in);
+            num=sc.nextInt();
+                        pow=sc.nextInt();
+
+            while(i<=pow){
+                sum=sum* num;
+                i++;
+             }
+             System.out.println(num+"to the pow"+pow+"is:-"+sum);
+    }
+}
