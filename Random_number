@@ -1,0 +1,23 @@
+import java.util.*;
+ class Main {
+    public static void main(String a[]){
+        int max;
+        int c;
+        int n;
+        int num;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of random");
+
+        n=sc.nextInt();
+        System.out.println("The max value");
+        max=sc.nextInt();
+        Random t=new Random();
+     System.out.println("The Random number from 0to"+max+"are");
+     for(c=1;c<=n;c++){
+                 System.out.println(t.nextInt(max));
+
+     }
+
+    
+    }
+}
