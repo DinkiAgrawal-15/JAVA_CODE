@@ -1,0 +1,57 @@
+// Java Program to Print all unique subsets in an array of
+// subsets using bit manipulation
+
+// Importing input output classes
+import java.io.*;
+// Importing utility classes
+import java.util.*;
+
+// Main class
+class Main {
+
+	// Method 1
+	static List<List<Integer> > subsets(int[] nums)
+	{
+
+		// Creating List class object
+		// Declaring. object of integer List
+		List<List<Integer> > output = new ArrayList<>();
+
+		int n = nums.length;
+
+		// Increase the size by using left shift (1 * 2^n)
+		int size = 1 << n;
+
+		for (int i = 0; i < size; i++) {
+			List<Integer> curr = new ArrayList<>();
+			for (int j = 0; j < n; j++) {
+
+				// right shift i and j i.e. i/2^j
+				if (((i >> j) & 1) == 1) {
+
+					// Add it to subset
+					curr.add(nums[j]);
+				}
+			}
+
+			// Adding the subset
+			output.add(curr);
+		}
+		return output;
+	}
+
+	// Method 2
+	// Main driver method
+	public static void main(String[] args)
+	{
+
+		// Custom input array
+		int arr[] = { 1, 2, 3 };
+
+		// Calling method 1 in main() method
+		List<List<Integer> > output = subsets(arr);
+
+		// Print all unique subsets in an array
+		System.out.println(output);
+	}
+}
