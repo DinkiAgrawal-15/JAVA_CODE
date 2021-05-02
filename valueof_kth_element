@@ -1,0 +1,36 @@
+// Java Program to Print the kth Element in the Array
+
+import java.io.*;
+import java.util.Scanner;
+
+class Main {
+	public static void main(String[] args)
+	{
+		{
+			int n;
+
+			// scanner object to acces user input
+			Scanner s = new Scanner(System.in);
+			System.out.print(
+				"Enter number of elements you want in array:");
+
+			// storing input in variable
+			n = s.nextInt();
+
+			// create int array
+			int a[] = new int[n];
+			System.out.println("Enter all the elements:");
+
+			// iterating for loop to enter the values in the
+			// array
+			for (int i = 0; i < n; i++) {
+				a[i] = s.nextInt();
+			}
+
+			System.out.print(
+				"Enter the k th position at which you want to check number:");
+			int k = s.nextInt();
+			System.out.println("Number is :" + a[k - 1]);
+		}
+	}
+}
