@@ -1,4 +1,5 @@
 // Java program to find common elements in three arrays
+
 class FindCommon
 {
 	// This function prints common elements in ar1
