@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int num;
+	    int half;
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the number");
+	    num=sc.nextInt();
+	    half=num/2;
+	    if(num==half*2){
+	        System.out.println("Even");
+	    }else{
+	        System.out.println("odd");
+
+	    }
+	    
+	}
+}
