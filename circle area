@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int diameter;
+	    Scanner sc= new Scanner(System.in);
+	    System.out.print("Enter diameter :");
+	    diameter=sc.nextInt();
+	    float r=diameter/2;
+	    float pi=3.14f;
+		float area= (pi)*(r*r);
+		System.out.println(r);
+		System.out.printf("%.2f",area);
+	}
+}
