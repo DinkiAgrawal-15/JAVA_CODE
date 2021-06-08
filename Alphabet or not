@@ -10,6 +10,7 @@ public class Main
 	    
 	    
 	        		System.out.printf("Alphabet");
+				
 
 	    }else{
 	        		System.out.printf("Not Albhabet");
