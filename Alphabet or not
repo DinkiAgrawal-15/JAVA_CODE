@@ -7,6 +7,7 @@ public class Main
 	    Scanner sc= new Scanner(System.in);
 	    ch=sc.next().charAt(0);
 	    if((ch>='a'&& ch<='z')|| (ch>='A'&& ch<='Z')){
+	    
 	        		System.out.printf("Alphabet");
 
 	    }else{
