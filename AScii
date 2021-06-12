@@ -5,6 +5,7 @@ public class Main
 	    char ch;
 	    Scanner sc=new Scanner(System.in);
 	    ch=sc.next().charAt(0);
+	    
 	    int s=ch;
 	    System.out.println(s);
 	}
