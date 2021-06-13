@@ -6,6 +6,7 @@ public class Main {
         //1
         Scanner scanner = new Scanner(System.in);
 
+
         //2
         System.out.println("Enter the count of the array : ");
         int count = scanner.nextInt();
