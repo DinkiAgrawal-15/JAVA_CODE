@@ -27,8 +27,12 @@ public class Main {
             rotatedArray[(i - rotation + count) % count] = no;
         }
 
+
+
+
         //6
         System.out.println("Array : " + Arrays.toString(originalArray));
         System.out.println("Rotated array : " + Arrays.toString(rotatedArray));
     }
 }
+.....
