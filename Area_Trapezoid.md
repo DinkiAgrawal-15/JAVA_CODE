@@ -1,3 +1,4 @@
+```java
 public class AreaOfTrapizoid {
  
     public static void main(String[] args) {
@@ -22,3 +23,4 @@ public class AreaOfTrapizoid {
         System.out.format("Area of Trapezium = %.2f\n", area);
     }
 }
+```
