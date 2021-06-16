@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 public class Exercise14 {
  
@@ -16,3 +17,4 @@ public class Exercise14 {
         return  (n * s * s) / (4 * Math.tan(Math.PI/n));
     }
 }
+```
