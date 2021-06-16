@@ -1,3 +1,5 @@
+
+```java
 public class Area.
 int r;
 double pi = 3.14, area;
@@ -8,4 +10,4 @@ r = s. nextInt();
 area = pi * r * r;
 System. out. println("Area of circle:"+area);
 
-
+```
