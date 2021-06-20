@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 class SquareAreaDemo {
    public static void main (String[] args)
@@ -14,3 +15,4 @@ class SquareAreaDemo {
        
    }
 }
+```
