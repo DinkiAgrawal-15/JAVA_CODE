@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 class AreaTriangleDemo {
    public static void main(String args[]) {   
@@ -14,3 +15,4 @@ class AreaTriangleDemo {
       System.out.println("Area of Triangle is: " + area);      
    }
 }
+```
