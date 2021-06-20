@@ -1,3 +1,5 @@
+
+```java
 public class shpere{
 public static void main(String args[])
 {
@@ -9,3 +11,4 @@ double area_sphere=4*pie*(radius*radius);
 System.out.println("Surface area of sphere="+area_sphere);
 
 }
+  ```
