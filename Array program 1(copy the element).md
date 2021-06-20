@@ -1,3 +1,5 @@
+
+```java
 public class Main {    
     public static void main(String[] args) {        
              //Initialize array     
@@ -24,3 +26,4 @@ public class Main {
     }    
 }    
 
+```
