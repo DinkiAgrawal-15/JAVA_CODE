@@ -1,3 +1,4 @@
+````java
 import java.util.Scanner;
 class AreaOfRectangle {
    public static void main (String[] args)
@@ -12,3 +13,4 @@ class AreaOfRectangle {
 	   System.out.println("Area of Rectangle is:"+area);
    }
 }
+```
