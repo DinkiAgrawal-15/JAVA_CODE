@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 class Average
 {
@@ -28,3 +29,4 @@ class Average
     }
  
 }
+```
