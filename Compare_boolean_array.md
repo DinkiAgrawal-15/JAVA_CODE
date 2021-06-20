@@ -1,3 +1,4 @@
+```java
 // Java Program to Compare two Boolean
 // Arrays using Naive approach
 
@@ -40,3 +41,4 @@ class Main{
 		System.out.println("Both the arrays equal ");
 	}
 }
+```
