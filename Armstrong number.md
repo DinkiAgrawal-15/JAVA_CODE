@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 public class JavaExample {
 
@@ -22,3 +23,4 @@ public class JavaExample {
             System.out.println(num + " is not an Armstrong number");
     }
 }
+```
