@@ -1,3 +1,4 @@
+```java
 class AreaOfRhombus 
 {
    public static void main(String args[]) 
@@ -14,3 +15,4 @@ class AreaOfRhombus
       System.out.println("Area of Rhombus is: " + area);      
    }
 }
+```
