@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 class CGPA
 {
@@ -40,3 +41,4 @@ class CGPA
  
    }
 }
+```
