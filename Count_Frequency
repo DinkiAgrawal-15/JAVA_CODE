@@ -22,6 +22,7 @@ public class Main {
         //Displays the frequency of each element present in array  
         System.out.println("");  
         System.out.println(" Element | Frequency");  
+
         System.out.println("");  
 
         for(int i = 0; i < fr.length; i++){  
