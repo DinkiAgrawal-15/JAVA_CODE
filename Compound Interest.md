@@ -5,6 +5,7 @@ N = ” Number of compounding a year “
 T = ” Total Number Of Years “
 
 ##################################################33
+```java
 import java.util.Scanner;
  
 import static java.lang.Math.pow;
@@ -36,3 +37,4 @@ class CompundInterest
  
 	}
 }
+```
