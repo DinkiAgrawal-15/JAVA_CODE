@@ -1,3 +1,4 @@
+```java
 public class CopyArray {    
     public static void main(String[] args) {        
              //Initialize array     
@@ -23,3 +24,4 @@ public class CopyArray {
         }     
     }    
 }    
+```
