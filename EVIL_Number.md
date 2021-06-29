@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 public class Main {  
   
@@ -64,3 +65,4 @@ public class Main {
         return binaryNumber;    //return the binary equivalent number of the decimal number  
     }  
 }
+```
